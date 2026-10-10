@@ -1,0 +1,35 @@
+env
+.env
+__pycache__/
+*.pyc
+*.pyo
+catboost_info/
+pindorav2ubuntu_key.pem
+3d_models/*.sdf
+
+# Frontend folder ignores
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+frontend/package-lock.json

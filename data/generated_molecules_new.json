@@ -1,0 +1,104 @@
+[
+  {
+    "input_smile": "O=C(Nc1ccc(S(=O)(=O)N2CCOCC2)cc1)c1cc(Cl)ccc1NS(=O)(=O)c1ccc(Cl)s1",
+    "disease_name": "chest pain",
+    "target_symbol": "GUCY1A1",
+    "drug_name": "ATACIGUAT",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "O=C(Nc1ccc(S(=O)(=O)N2CCOCC2)cc1)c1cc(Cl)ccc1NS(=O)(=O)c1ccc(Cl)s1",
+          "similarity": 1.0,
+          "scaffold_preserved": true,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 576.5050000000001,
+            "logp": 4.1289000000000025,
+            "hbd": 2,
+            "hba": 7,
+            "rotatable_bonds": 7,
+            "aromatic_rings": 3,
+            "qed": 0.436,
+            "sascore": 10.0,
+            "lipinski_violations": 1,
+            "pains_alert": false
+          }
+        }
+      ]
+    ],
+    "predictions": {
+      "IC50": 32.3759324744585,
+      "Association_Score": 0.7618376272491537,
+      "Max_Clinical_Phase": 4,
+      "Predicted_Target": "ABCC8"
+    }
+  },
+  {
+    "input_smile": "NCCc1cc[nH]n1",
+    "disease_name": "chest pain",
+    "target_symbol": "HRH2",
+    "drug_name": "BETAZOLE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "NCCc1cc[nH]n1",
+          "similarity": 1.0,
+          "scaffold_preserved": true,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 111.14799999999998,
+            "logp": -0.08910000000000035,
+            "hbd": 2,
+            "hba": 2,
+            "rotatable_bonds": 2,
+            "aromatic_rings": 1,
+            "qed": 0.56,
+            "sascore": 1.9,
+            "lipinski_violations": 0,
+            "pains_alert": false
+          }
+        }
+      ]
+    ],
+    "predictions": {
+      "IC50": 6668.263256793838,
+      "Association_Score": 0.2563981280855308,
+      "Max_Clinical_Phase": 4,
+      "Predicted_Target": "SCNN1A"
+    }
+  },
+  {
+    "input_smile": "Cn1cc(S(=O)(=O)[C@@](C)(F)C2CCN(C(=O)Nc3ccon3)CC2)c(C(F)F)n1",
+    "disease_name": "chest pain",
+    "target_symbol": "MYH7",
+    "drug_name": "DANICAMTIV",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "Cn1cc(S(=O)(=O)[C@@](C)(F)C2CCN(C(=O)Nc3ccon3)CC2)c(C(F)F)n1",
+          "similarity": 1.0,
+          "scaffold_preserved": true,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 435.4280000000001,
+            "logp": 2.749200000000001,
+            "hbd": 1,
+            "hba": 6,
+            "rotatable_bonds": 5,
+            "aromatic_rings": 2,
+            "qed": 0.773,
+            "sascore": 7.4,
+            "lipinski_violations": 0,
+            "pains_alert": false
+          }
+        }
+      ]
+    ],
+    "predictions": {
+      "IC50": 626.1681171849993,
+      "Association_Score": 0.6744530501469387,
+      "Max_Clinical_Phase": 4,
+      "Predicted_Target": "BRAF"
+    }
+  }
+]
